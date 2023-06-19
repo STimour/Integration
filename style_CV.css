@@ -13,3 +13,6 @@ body{
 .sec_droite{
     width: 65%;
 }
+h1, h2{
+    text-transform: uppercase;
+}
