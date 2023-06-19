@@ -17,6 +17,9 @@ h2{
     width: 50%;
     cursor: pointer;
 }
+.img_2{
+    text-align: center;
+}
 .w30{
     width: 30%;
     cursor: pointer;
@@ -35,6 +38,6 @@ ul{
 .liste_2{
     list-style: decimal;
 }
-.ul2>h3{
+.liste_2_titre{
     color: violet;
 }
