@@ -1,0 +1,15 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+body{
+    display: flex;
+}
+.sec_gauche{
+    background-color: rgb(38, 56, 117);
+    color: white;
+    width: 35%;
+}
+.sec_droite{
+    width: 65%;
+}
