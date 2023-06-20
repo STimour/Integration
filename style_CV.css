@@ -30,12 +30,12 @@ ul{
     flex-direction: column;
     padding: 40px 40px;
 }
-.container_info_perso, .container_exp_pro{
+.container_info_perso{
     margin-top: 40px;
 }
 .info_perso{
     margin-top: 20px;
-    min-height: 35vh;
+    min-height: 35vh;  
 }
 .exp_pro{
     margin: 20px;
@@ -49,12 +49,18 @@ div{
 h1, h2, h3, h4, h5, h6, ul, li{
     margin: 0;
 }
-h1, h2{
+h4, h5, h6, ul, li{
+    margin: 0;
+}
+h1, h2, h3{
     text-transform: uppercase;
 }
 h2{
     font-size: 18px;
-    text-transform: uppercase;
+    color:  #114861;
+}
+h3{
+    margin-bottom: 20px;
 }
 h4{
     font-size: 12px;
