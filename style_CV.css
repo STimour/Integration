@@ -1,18 +1,72 @@
 *{
     box-sizing: border-box;
     margin: 0;
+    padding: 0;
 }
 body{
     display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
+
+ul{
+    margin-left: 20px;
+}
+
+/* ANCHOR section */
+
 .sec_gauche{
-    background-color: rgb(38, 56, 117);
+    background-color: #114861;
     color: white;
-    width: 35%;
+    min-width: 40vw;
+    text-align: right;
+    padding: 40px 40px;
+  
 }
 .sec_droite{
-    width: 65%;
+    min-width: 60vw;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    padding: 40px 40px;
+}
+.container_info_perso, .container_exp_pro{
+    margin-top: 40px;
+}
+.info_perso{
+    margin-top: 20px;
+    min-height: 35vh;
+}
+.exp_pro{
+    margin: 20px;
+}
+
+div{
+    padding: 0;
+}
+
+/*ANCHOR police*/
+h1, h2, h3, h4, h5, h6, ul, li{
+    margin: 0;
 }
 h1, h2{
     text-transform: uppercase;
+}
+h2{
+    font-size: 18px;
+    text-transform: uppercase;
+}
+h4{
+    font-size: 12px;
+}
+h5{
+    font-size: 9px;
+}
+
+li, p{
+    font-size: 10px;
+}
+a{
+    text-decoration: none;
+    color: white;
 }
