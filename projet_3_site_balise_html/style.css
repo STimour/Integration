@@ -18,14 +18,14 @@ body{
 #liste{
     width: 20vw;
     height: 100vh;
-    overflow: scroll;
+    overflow-y: scroll;
     scrollbar-width: auto;
     text-align: center;
+    border-right: 1px solid black;
 }
 #info{
     width: 80vw;
     height: 100vh;
-    overflow: hidden;
     overflow: scroll;
 }
 #liste, #info, .box_info{
