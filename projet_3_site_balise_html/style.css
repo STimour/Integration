@@ -26,17 +26,20 @@ body{
 #info{
     width: 80vw;
     height: 100vh;
-    align-items: center;
-    justify-content: center;
     overflow: hidden;
+    padding: 0;
 }
-#liste, #info{
+#liste, #info, .box_info{
     display: flex;
     flex-direction: column;
 }
 
 .box_info{
     width: 80%;
+    min-height: 100vh;
+    overflow: hidden;
+    justify-content: center;
+    margin: auto;
 }
 
 /* ANCHOR btn */
