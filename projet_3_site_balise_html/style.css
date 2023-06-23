@@ -34,10 +34,16 @@ body{
 }
 
 .box_info{
+    margin-top: 20vh;
     width: 80%;
-    min-height: 100vh;
+    min-height: 80vh;
     justify-content: center;
     margin: auto;
+}
+
+.grp_exs{
+    padding: 30px;
+    margin: 30px 0;
 }
 
 table, td, th {  
