@@ -16,12 +16,12 @@
                 <a href="#html" class="titre_balise">html</a>
                 <a href="#head" class="titre_balise">head</a>
                 <a href="#meta" class="titre_balise">meta</a>
-                <a href="" class="titre_balise">title</a>
-                <a href="" class="titre_balise">body</a>
-                <a href="" class="titre_balise">header</a>
-                <a href="" class="titre_balise">nav</a>
-                <a href="" class="titre_balise">a</a>
-                <a href="" class="titre_balise">footer</a>
+                <a href="#title" class="titre_balise">title</a>
+                <a href="#body" class="titre_balise">body</a>
+                <a href="#header" class="titre_balise">header</a>
+                <a href="#nav" class="titre_balise">nav</a>
+                <a href="#a" class="titre_balise">a</a>
+                <a href="#footer" class="titre_balise">footer</a>
             
                 <h2>Media</h2>
                 <a href="" class="titre_balise">img</a>
@@ -308,7 +308,7 @@
           </div>
 <!-------------------------------------deffinition d'une autre balise ------------------------------>
           <div class="box_info mt-30">
-            <div id="meta" class="balise mt-30">
+            <div id="body" class="balise mt-30">
                 <h1>&lt;body&gt;</h1>
                 <p>Permets d'ajouter des métas à la page HTML. </p>
             </div>
@@ -321,13 +321,14 @@
                       <th>Valeurs (Exemples)</th>
                     </tr>
                     <tr>
-                      <td>...</td>
+                      <td>id</td>
+                      <td>Identificateur unique, permet manpumation par css par la suite</td>
+                      <td>#bgcolor{background: red;}</td>
                     </tr>
                     <tr>
-                      <td>...</td>
-                    </tr>
-                    <tr>
-                      <td>...</td>
+                      <td>class</td>
+                      <td>Identificateur de group, permet manpumation par css par la suite</td>
+                      <td>.bgcolor{background: red;}</td>
                     </tr>
                   </table>
             </div>
@@ -343,7 +344,7 @@
     initial-scale=1.0"&gt;
     &lt;title&gt;Document&lt;/title&gt;
 &lt;/head&gt;
-&lt;body&gt; 
+&lt;body id="block__padding"&gt; 
 
 &lt;/body&gt;
 &lt;/html&gt;
@@ -360,8 +361,10 @@
     initial-scale=1.0"&gt;
     &lt;title&gt;Document&lt;/title&gt;
 &lt;/head&gt;
-&lt;body&gt; 
+&lt;body class="block__padding"&gt; 
+  &lt;main class="block__padding"&gt; 
 
+  &lt;/main&gt;
 &lt;/body&gt;
 &lt;/html&gt;
 </p>
@@ -370,9 +373,9 @@
           </div>
 <!-------------------------------------deffinition d'une autre balise ------------------------------>
           <div class="box_info">
-            <div id="meta" class="balise">
-                <h1>meta</h1>
-                <p>Permets d'ajouter des métas à la page HTML. </p>
+            <div id="nav" class="balise">
+                <h1>nav</h1>
+                <p>Permets creer une "boite" pour les liens de navifation </p>
             </div>
             <div class="attributs mt-30">
                 <h1>Attribus</h1>
