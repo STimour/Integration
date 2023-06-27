@@ -3,7 +3,7 @@ include "inc/header.inc.php";
 include "inc/nav.inc.php";
 ?>
 
-<section class="col-md-10 text-center h-75">
+<section class="col-md-10 text-center h-75 overflow-hidden">
     <h1>Titre</h1>
     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
     <section class="d-flex flex-column col-md-10 m-auto">

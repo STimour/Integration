@@ -25,7 +25,7 @@
 <!-- ANCHOR 2eme nav -->
     
 <main class="d-flex flex-row">
-  <section class="col-md-2">
+  <section class="col-md-2 text-center overflow-scroll">
     <ul class="nav flex-column h-100">
         <h1>Titre 1</h1>
       <li class="nav-item">
