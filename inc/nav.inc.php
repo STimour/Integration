@@ -1,8 +1,8 @@
 
 <header class="mb-5">
         <nav>
-            <nav class="navbar navbar-expand-lg bg-secondary-subtle fixed-top">
-                <div class="container-fluid">
+            <nav class="navbar navbar-expand-lg bg-black fixed-top">
+                <div class="container-fluid text-light">
                   <a class="navbar-brand" href="index.php"><img src="../assets/img/logo.png" id="logo" alt="image avec 'HTML' ecrit dessus"></a>
                   <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -10,16 +10,16 @@
                   <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="exemple.php">Accueil</a>
+                        <a class="nav-link text-light" aria-current="page" href="exemple.php">Accueil</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="tableau.php">Classement alphabétique</a>
+                        <a class="nav-link text-light"href="tableau.php">Classement alphabétique</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="exemple.php">Exemples</a>
+                        <a class="nav-link text-light"aria-current="page" href="exemple.php">Exemples</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="source.php">Sources</a>
+                        <a class="nav-link text-light"href="source.php">Sources</a>
                       </li>
                     </ul>
                   </div>
@@ -31,91 +31,91 @@
 <!-- ANCHOR 2eme nav -->
     
 <main class="d-flex justify-content-evently">
-  <section class="col-md-2 text-center overflow-scroll mt-5">
+  <section class="col-md-2 text-center overflow-scroll pt-5 bg-black">
     <ul class="nav flex-column h-100">
-        <h1>A</h1>
+        <h1 class="text-light">A</h1>
         <!-- ANCHOR A -->
       <li class="nav-item">
-        <a class="nav-link" aria-current="page" href="#">azimuth</a>
+        <a class="nav-link text-light" aria-current="page" href="#">azimuth</a>
       </li>
       <!-- ANCHOR B -->
-        <h1>B</h1>
+        <h1 class="text-light">B</h1>
       <li class="nav-item">
-        <a class="nav-link" href="#">background</a>
+        <a class="nav-link text-light" href="#">background</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link">behavior</a>
+        <a class="nav-link text-light">behavior</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link">border</a>
+        <a class="nav-link text-light">border</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link">bottom</a>
+        <a class="nav-link text-light">bottom</a>
       </li>
       <!-- ANCHOR C -->
-      <h1>C</h1>
+      <h1 class="text-light">C</h1>
       <li class="nav-item">
-        <a class="nav-link" aria-current="page" href="#">caption-side</a>
+        <a class="nav-link text-light"aria-current="page" href="#">caption-side</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">clear</a>
+        <a class="nav-link text-light"href="#">clear</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">clip</a>
+        <a class="nav-link text-light"href="#">clip</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link">color</a>
+        <a class="nav-link text-light">color</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" aria-current="page" href="#">content</a>
+        <a class="nav-link text-light"aria-current="page" href="#">content</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">counter-increment</a>
+        <a class="nav-link text-light"href="#">counter-increment</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">counter-reset</a>
+        <a class="nav-link text-light"href="#">counter-reset</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link">cue</a>
+        <a class="nav-link text-light">cue</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link">cursor</a>
+        <a class="nav-link text-light">cursor</a>
       </li>
 
       <!-- ANCHOR D -->
-      <h1>D</h1>
+      <h1 class="text-light">D</h1>
       <li class="nav-item">
-        <a class="nav-link" aria-current="page" href="#">direction</a>
+        <a class="nav-link text-light"aria-current="page" href="#">direction</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">display</a>
+        <a class="nav-link text-light"href="#">display</a>
       </li>
 
       <!-- ANCHOR E -->
-      <h1>E</h1>
+      <h1 class="text-light">E</h1>
       <li class="nav-item">
-        <a class="nav-link" aria-current="page" href="#">elevation</a>
+        <a class="nav-link text-light"aria-current="page" href="#">elevation</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">empty-cells</a>
+        <a class="nav-link text-light"href="#">empty-cells</a>
       </li>
     
 
      <!-- ANCHOR E -->
-     <h1>E</h1>
+     <h1 class="text-light">E</h1>
       <li class="nav-item">
-        <a class="nav-link" aria-current="page" href="#">filter</a>
+        <a class="nav-link text-light"aria-current="page" href="#">filter</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">float</a>
+        <a class="nav-link text-light"href="#">float</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">font</a>
+        <a class="nav-link text-light"href="#">font</a>
       </li>
       <!-- ANCHOR H -->
-     <h1>H</h1>
+     <h1 class="text-light">H</h1>
       <li class="nav-item">
-        <a class="nav-link" aria-current="page" href="#">height</a>
+        <a class="nav-link text-light"aria-current="page" href="#">height</a>
       </li>
     </ul>
 

@@ -8,4 +8,4 @@
     <link rel="stylesheet" href="../assets/css/styl.css">
     <title>CSS</title>
 </head>
-<body>
+<body class="bg-dark">

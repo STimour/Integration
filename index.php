@@ -3,7 +3,7 @@ include "inc/header.inc.php";
 include "inc/nav.inc.php";
 ?>
 
-<section class="col-md-10 h-75 mt-5">
+<section class="col-md-10 h-75 overflow-scroll mt-5">
     <div class="m-auto col-md-10">
         <div class="col-md-10 m-auto">
             <h1>Définition du mot CSS</h1>
