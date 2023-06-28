@@ -8,7 +8,7 @@ include "inc/nav.inc.php";
 <h2 class="text-light">Classement alphabétique</h2>
 
 <!-- ANCHOR A -->
-<h3 class="text-light">A</h3>
+<h3 id="a" class="text-light m-2">A</h3>
 
 <table class="table-dark mt-2 table-striped table-bordered">
 <tbody>
@@ -27,7 +27,7 @@ include "inc/nav.inc.php";
 
 
 <!-- ANCHOR  B -->
-<h3 class="text-light">B</h3>
+<h3 id="b" class="text-light m-2">B</h3>
 <table class="table-dark mt-2 table-striped table-bordered">
 <tbody>
 <tr>
@@ -207,8 +207,7 @@ Couleur</td>
 
 
 <!-- ANCHOR C -->
-<h3 class="text-light">
-<a name="C">C</h3>
+<h3 id="c" class="text-light m-2">C</h3>
 <table class="table-dark mt-2 table-striped table-bordered">
 <tbody>
 <tr>
@@ -285,8 +284,7 @@ de contenu</td>
 
 
 <!-- ANCHOR D -->
-<h3 class="text-light">
-<a name="D">D</h3>
+<h3 id="d" class="text-light m-2">D</h3>
 <table class="table-dark mt-2 table-striped table-bordered">
 <tbody>
 <tr>
@@ -306,7 +304,7 @@ de contenu</td>
 </tr>
 </tbody>
 </table>
-<h3 class="text-light">
+<h3 class="text-light m-2">
 <a name="E">E</h3>
 <table class="table-dark mt-2 table-striped table-bordered">
 <tbody>
@@ -330,8 +328,7 @@ de contenu</td>
 
 
 <!-- ANCHOR F -->
-<h3 class="text-light">
-<a name="F">F</h3>
+<h3 id="f" class="text-light m-2">F</h3>
 <table class="table-dark mt-2 table-striped table-bordered">
 <tbody>
 <tr>
@@ -400,7 +397,7 @@ rapport à un autre. </td>
 </tr>
 </tbody>
 </table>
-<h3 class="text-light">
+<h3 class="text-light m-2">
 <a name="H" id="H">H</h3>
 <table class="table-dark mt-2 table-striped table-bordered">
 <tbody>
@@ -419,8 +416,8 @@ rapport à un autre. </td>
 
 
 <!-- ANCHOR I -->
-<h3 class="text-light">
-<a name="I">I</h3>
+<h3 id="i" class="text-light m-2">
+I</h3>
 <table class="table-dark mt-2 table-striped table-bordered">
 <tbody>
 <tr>
@@ -446,8 +443,8 @@ japonais et le coréen.</td>
 
 
 <!-- ANCHOR L -->
-<h3 class="text-light">
-<a name="L">L</h3>
+<h3 id="l" class="text-light m-2">
+L</h3>
 <table class="table-dark mt-2 table-striped table-bordered">
 <tbody>
 <tr>
@@ -556,7 +553,7 @@ liste.</td>
 
 
 <!-- ANCHOR M -->
-<h3 class="text-light">M</h3>
+<h3 id="m" class="text-light m-2">M</h3>
 <table class="table-dark mt-2 table-striped table-bordered">
 <tbody>
 <tr>
@@ -661,7 +658,7 @@ seulement)</td>
 
 
 <!-- ANCHOR O -->
-<h3 class="text-light">O</h3>
+<h3 id="o" class="text-light m-2">O</h3>
 <table class="table-dark mt-2 table-striped table-bordered">
 <tbody>
 <tr>
@@ -725,7 +722,7 @@ seulement, Position</td>
 
 
 <!-- ANCHOR P -->
-<h3 class="text-light">P</h3>
+<h3 id="p" class="text-light m-2">P</h3>
 <table class="table-dark mt-2 table-striped table-bordered">
 <tbody>
 <tr>
@@ -819,7 +816,7 @@ seulement, Position</td>
 
 
 <!-- ANCHOR Q -->
-<h3 class="text-light">Q</h3>
+<h3 id="q" class="text-light m-2">Q</h3>
 <table class="table-dark mt-2 table-striped table-bordered">
 <tbody>
 <tr>
@@ -838,7 +835,7 @@ contenu</td>
 
 
 <!-- ANCHOR R -->
-<h3 class="text-light">R</h3>
+<h3 id="r" class="text-light m-2">R</h3>
 <table class="table-dark mt-2 table-striped table-bordered">
 <tbody>
 <tr>
@@ -879,7 +876,7 @@ ou au-dessus de son texte de base ruby connexe (élément <span class="literal">
 
 
 <!-- ANCHOR S -->
-<h3 class="text-light">S</h3>
+<h3 id="s" class="text-light m-2">S</h3>
 <table class="table-dark mt-2 table-striped table-bordered">
 <tbody>
 <tr>
@@ -984,7 +981,7 @@ Table</td>
 
 
 <!-- ANCHOR T -->
-<h3 class="text-light">T</h3>
+<h3 id="t" class="text-light m-2">T</h3>
 <table class="table-dark mt-2 table-striped table-bordered">
 <tbody>
 <tr>
@@ -1077,8 +1074,7 @@ seulement, Texte</td>
 
 
 <!-- ANCHOR U -->
-<h3 class="text-light">
-<a name="U">U</h3>
+<h3 id="u" class="text-light m-2">U</h3>
 <table class="table-dark mt-2 table-striped table-bordered">
 <tbody>
 <tr>
@@ -1099,8 +1095,7 @@ Texte</td>
 
 
 <!-- ANCHOR V -->
-<h3 class="text-light">
-<a name="V">V</h3>
+<h3 id="v" class="text-light m-2">V</h3>
 <table class="table-dark mt-2 table-striped table-bordered">
 <tbody>
 <tr>
@@ -1133,7 +1128,7 @@ Texte</td>
 </table>
 
 <!-- ANCHOR W -->
-<h3 class="text-light">W</h3>
+<h3 id="w" class="text-light m-2">W</h3>
 <table class="table-dark mt-2 table-striped table-bordered">
 <tbody>
 <tr>
@@ -1189,8 +1184,7 @@ seulement, Texte</td>
 </table>
 
 <!-- ANCHOR Z -->
-<h3 class="text-light">
-<a name="Z">Z</h3>
+<h3 id="z" class="text-light m-2">Z</h3>
 <table class="table-dark mt-2 table-striped table-bordered">
 <tbody>
 <tr>
