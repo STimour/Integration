@@ -13,6 +13,9 @@
                         <a class="nav-link" aria-current="page" href="exemple.php">Accueil</a>
                       </li>
                       <li class="nav-item">
+                        <a class="nav-link" href="tableau.php">Classement alphabétique</a>
+                      </li>
+                      <li class="nav-item">
                         <a class="nav-link" aria-current="page" href="exemple.php">Exemples</a>
                       </li>
                       <li class="nav-item">
@@ -27,7 +30,7 @@
 
 <!-- ANCHOR 2eme nav -->
     
-<main class="d-flex flex-row">
+<main class="d-flex justify-content-evently">
   <section class="col-md-2 text-center overflow-scroll mt-5">
     <ul class="nav flex-column h-100">
         <h1>A</h1>
