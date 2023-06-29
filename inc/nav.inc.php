@@ -21,6 +21,10 @@
                       <li class="nav-item">
                         <a class="nav-link text-light"href="source.php">Sources</a>
                       </li>
+                      <li class="nav-item">
+                      <a class="nav-link text-light" href="#a">A</a>
+                      </li>
+                      
                     </ul>
                   </div>
                 </div>
@@ -33,7 +37,7 @@
 <main class="d-flex justify-content-evently">
   <section class="col-md-2 text-center overflow-scroll pt-5 bg-black">
     <ul class="nav flex-column h-100">
-        <h1 class="text-light"><a href="#a">A</a></h1>
+        <h1 class="text-light"><a class="nav-link text-light" href="#a">A</a></h1>
         <!-- ANCHOR A -->
       <li class="nav-item">
         <a class="nav-link text-light" aria-current="page" href="#azimuth">azimuth</a>
@@ -102,7 +106,7 @@
     
 
      <!-- ANCHOR F -->
-     <h1 class="text-light"><a href="#f"></a>F</h1>
+     <h1 class="text-light"><a href="#f">F</a></h1>
       <li class="nav-item">
         <a class="nav-link text-light"aria-current="page" href="#filter">filter</a>
       </li>

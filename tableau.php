@@ -1,7 +1,109 @@
 <?php   
 include "inc/header.inc.php";
-include "inc/nav.inc.php";
 ?>
+
+<header class="mb-5">
+        <nav>
+            <nav class="navbar navbar-expand-lg bg-black fixed-top">
+                <div class="container-fluid text-light">
+                  <a class="navbar-brand" href="index.php"><img src="../assets/img/logo.png" id="logo" alt="image avec 'HTML' ecrit dessus"></a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link text-light" aria-current="page" href="exemple.php">Accueil</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link text-light"href="tableau.php">Classement alphabétique</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link text-light"aria-current="page" href="exemple.php">Exemples</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link text-light"href="source.php">Sources</a>
+                      </li>
+                      <li class="nav-item">
+                      <a class="nav-link text-light" href="#a">A</a>
+                      </li>
+                      
+                    </ul>
+                  </div>
+                </div>
+              </nav>
+        </nav>
+    </header>
+
+<!-- ANCHOR 2eme nav -->
+    
+<main class="d-flex justify-content-evently">
+  <section class="col-md-2 text-center overflow-scroll pt-5 bg-black">
+    <ul class="nav flex-column h-100 fixed-start">
+       
+      <!-- ANCHOR A -->
+      <h1 class="nav-item"><a class="nav-link text-light link-secondary" href="#a">A</a></h1>
+
+      <!-- ANCHOR B -->
+      <h1 class="nav-item"><a class="nav-link text-light link-secondary" href="#b">B</a></h1>
+
+      <!-- ANCHOR C -->
+      <h1 class="nav-item"><a class="nav-link text-light link-secondary" href="#c">C</a></h1>
+
+      <!-- ANCHOR D -->
+      <h1 class="nav-item"><a class="nav-link text-light link-secondary" href="#d">D</a></h1>
+
+      <!-- ANCHOR E -->
+      <h1 class="nav-item"><a class="nav-link text-light link-secondary" href="#e">E</a></h1>
+ 
+     <!-- ANCHOR F -->
+     <h1 class="nav-item"><a class="nav-link text-light link-secondary" href="#f">F</a></h1>
+     <!-- ANCHOR g -->
+     <h1 class="nav-item"><a class="nav-link text-light link-secondary" href="#g">G</a></h1>
+     <!-- ANCHOR h -->
+     <h1 class="nav-item"><a class="nav-link text-light link-secondary" href="#h">H</a></h1>
+     <!-- ANCHOR i -->
+     <h1 class="nav-item"><a class="nav-link text-light link-secondary" href="#i">I</a></h1>
+     <!-- ANCHOR J -->
+     <h1 class="nav-item"><a class="nav-link text-light link-secondary" href="#j">J</a></h1>
+     <!-- ANCHOR k -->
+     <h1 class="nav-item"><a class="nav-link text-light link-secondary" href="#k">K</a></h1>
+     <!-- ANCHOR L -->
+     <h1 class="nav-item"><a class="nav-link text-light link-secondary" href="#l">L</a></h1>
+     <!-- ANCHOR M -->
+     <h1 class="nav-item"><a class="nav-link text-light link-secondary" href="#m">M</a></h1>
+     <!-- ANCHOR N -->
+     <h1 class="nav-item"><a class="nav-link text-light link-secondary" href="#n">N</a></h1>
+     <!-- ANCHOR O -->
+     <h1 class="nav-item"><a class="nav-link text-light link-secondary" href="#o">O</a></h1>
+     <!-- ANCHOR p -->
+     <h1 class="nav-item"><a class="nav-link text-light link-secondary" href="#p">P</a></h1>
+    
+     <!-- ANCHOR Q -->
+    <h1 class="nav-item"><a class="nav-link text-light link-secondary" href="#q">Q</a></h1>
+     <!-- ANCHOR R -->
+     <h1 class="nav-item"><a class="nav-link text-light link-secondary" href="#r">R</a></h1>
+     <!-- ANCHOR S -->
+     <h1 class="nav-item"><a class="nav-link text-light link-secondary" href="#s">S</a></h1>
+     <!-- ANCHOR T -->
+     <h1 class="nav-item"><a class="nav-link text-light link-secondary" href="#t">T</a></h1>
+     <!-- ANCHOR U -->
+     <h1 class="nav-item"><a class="nav-link text-light link-secondary" href="#u">U</a></h1>
+     <!-- ANCHOR V -->
+     <h1 class="nav-item"><a class="nav-link text-light link-secondary" href="#v">V</a></h1>
+
+     <!-- ANCHOR W  -->
+     <h1 class="nav-item"><a class="nav-link text-light link-secondary" href="#w">W</a></h1>
+     <!-- ANCHOR X -->
+     <h1 class="nav-item"><a class="nav-link text-light link-secondary" href="#x">X</a></h1>
+     <!-- ANCHOR Y -->
+     <h1 class="nav-item"><a class="nav-link text-light link-secondary" href="#y">Y</a></h1>
+  <!-- ANCHOR Z -->
+  <h1 class="nav-item"><a class="nav-link text-light link-secondary" href="#z">Z</a></h1>
+    </ul>
+
+  </section>
+
 
 <section class="col-md-10 h-75 overflow-scroll mt-5">
 <div class="col-md-10 m-auto">
