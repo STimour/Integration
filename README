@@ -3,3 +3,8 @@ Ainsi vous pouvez retrouver:
     le Head dans le header.inc.php  
     la Nav dans le nav.inc.php
     le footer dans le fouter.inc.php
+
+Les pistes d'amelioration: 
+    Changement le bar de navigation et de naviagtion général sur le site
+    Ajout de la bar de recherche
+    Ajout des exemples 
