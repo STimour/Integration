@@ -43,19 +43,14 @@ include "inc/header.inc.php";
        
       <!-- ANCHOR A -->
       <h1 class="nav-item"><a class="nav-link text-light link-secondary" href="#a">A</a></h1>
-
       <!-- ANCHOR B -->
       <h1 class="nav-item"><a class="nav-link text-light link-secondary" href="#b">B</a></h1>
-
       <!-- ANCHOR C -->
       <h1 class="nav-item"><a class="nav-link text-light link-secondary" href="#c">C</a></h1>
-
       <!-- ANCHOR D -->
       <h1 class="nav-item"><a class="nav-link text-light link-secondary" href="#d">D</a></h1>
-
       <!-- ANCHOR E -->
       <h1 class="nav-item"><a class="nav-link text-light link-secondary" href="#e">E</a></h1>
- 
      <!-- ANCHOR F -->
      <h1 class="nav-item"><a class="nav-link text-light link-secondary" href="#f">F</a></h1>
      <!-- ANCHOR g -->
@@ -78,7 +73,6 @@ include "inc/header.inc.php";
      <h1 class="nav-item"><a class="nav-link text-light link-secondary" href="#o">O</a></h1>
      <!-- ANCHOR p -->
      <h1 class="nav-item"><a class="nav-link text-light link-secondary" href="#p">P</a></h1>
-    
      <!-- ANCHOR Q -->
     <h1 class="nav-item"><a class="nav-link text-light link-secondary" href="#q">Q</a></h1>
      <!-- ANCHOR R -->
@@ -91,7 +85,6 @@ include "inc/header.inc.php";
      <h1 class="nav-item"><a class="nav-link text-light link-secondary" href="#u">U</a></h1>
      <!-- ANCHOR V -->
      <h1 class="nav-item"><a class="nav-link text-light link-secondary" href="#v">V</a></h1>
-
      <!-- ANCHOR W  -->
      <h1 class="nav-item"><a class="nav-link text-light link-secondary" href="#w">W</a></h1>
      <!-- ANCHOR X -->
