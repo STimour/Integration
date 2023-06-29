@@ -9,3 +9,7 @@ img{
 .pfix{
     position: fixed;
 }
+
+.overflow__scroll{
+    overflow: scroll;
+}

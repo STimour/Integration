@@ -1,0 +1,5 @@
+Ce projet était fait en php car j'ai voulu alleger la lecture du code en sepparant les pages en différentes parties.
+Ainsi vous pouvez retrouver:
+    le Head dans le header.inc.php  
+    la Nav dans le nav.inc.php
+    le footer dans le fouter.inc.php
